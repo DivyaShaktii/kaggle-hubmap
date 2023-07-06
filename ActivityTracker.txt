@@ -1,0 +1,6 @@
+training_maskrcnn_resnet50_fpn_06_07
+    Version1 (Training Script):
+
+  model = torchvision.models.detection.maskrcnn_resnet50_fpn_v2(weights="DEFAULT",weights_backbone=ResNet50_Weights.IMAGENET1K_V2)
+  replaced maskrcnn_resnet50_fpn_v2 with maskrcnn_resnet50_fpn 
+  model = torchvision.models.detection.maskrcnn_resnet50_fpn(weights="DEFAULT", weights_backbone=ResNet50_Weights.IMAGENET1K_V2) 
